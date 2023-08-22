@@ -1,10 +1,10 @@
 <!-- markdownlint-disable MD030 -->
 
-# Flowise Embed
+# Criai Embed
 
-Javascript library to display flowise chatbot on your website
+Javascript library to display criai chatbot on your website
 
-![Flowise](https://github.com/FlowiseAI/FlowiseChatEmbed/blob/main/images/ChatEmbed.gif?raw=true)
+![Criai](https://github.com/startupstudiobr/criai-chat-embed/blob/main/images/ChatEmbed.gif?raw=true)
 
 Install:
 
@@ -30,7 +30,7 @@ yarn build
 
 ```html
 <script type="module">
-  import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js";
+  import Chatbot from "https://cdn.jsdelivr.net/npm/criai-embed/dist/web.js";
   Chatbot.init({
     chatflowid: "<chatflowid>",
     apiHost: "http://localhost:3000",
@@ -48,7 +48,7 @@ yarn build
     apiHost: "http://localhost:3000",
   });
 </script>
-<flowise-fullchatbot></flowise-fullchatbot>
+<criai-fullchatbot></criai-fullchatbot>
 ```
 
 To enable full screen, add `margin: 0` to <code>body</code> style, and confirm you don't set height and width
@@ -77,7 +77,7 @@ You can also customize chatbot with different configuration
 
 ```html
 <script type="module">
-  import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js";
+  import Chatbot from "https://cdn.jsdelivr.net/npm/criai-embed/dist/web.js";
   Chatbot.init({
     chatflowid: "91e9c803-5169-4db9-8207-3c0915d71c5f",
     apiHost: "http://localhost:3000",
@@ -129,4 +129,4 @@ You can also customize chatbot with different configuration
 
 ## License
 
-Source code in this repository is made available under the [MIT License](https://github.com/FlowiseAI/Flowise/blob/master/LICENSE.md).
+Source code in this repository is made available under the [MIT License](https://github.com/CriaiAI/Criai/blob/master/LICENSE.md).
