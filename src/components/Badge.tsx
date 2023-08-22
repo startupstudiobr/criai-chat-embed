@@ -20,8 +20,8 @@ export const Badge = (props: Props) => {
           liteBadge &&
           removedNode.id == 'lite-badge'
         ) {
-          console.log("Sorry, you can't remove the brand 😅")
-          props.botContainer?.append(liteBadge)
+          // console.log("Sorry, you can't remove the brand 😅")
+          // props.botContainer?.append(liteBadge)
         }
       })
     })
@@ -53,7 +53,6 @@ export const Badge = (props: Props) => {
       "background-color": props.badgeBackgroundColor ?? '#ffffff'
     }}>Powered by
       <a
-        ref={liteBadge}
         href={'https://douro.ai'}
         target="_blank"
         rel="noopener noreferrer"
